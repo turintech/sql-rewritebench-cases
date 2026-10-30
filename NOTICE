@@ -1,0 +1,11 @@
+sql-rewritebench-cases
+
+cases/*/original.sql and cases/*/query.sql (as first committed) are copied, unchanged, from SQL-RewriteBench,
+https://github.com/SQL-RewriteBench/benchmark, commit 025cf3d8086df2d45d000c65549e0cabe1499a34
+(benchmark/benchmark_inputs packages/cases/<ID>/sql/benchmark_input.sql).
+Copyright 2026 Jiang Long, Tianci Gao, Shiyuan Hao, Haochen Zhang, Shuncheng Liu, and Jiang Zhang.
+Licensed under the Apache License, Version 2.0 (see LICENSE). The benchmark's reference rewrites are not included.
+
+The queries run on data generated with the TPC-DS tools (TPC-DS is a trademark of the Transaction Processing
+Performance Council). No TPC software or data is included here. Results measured with these cases are not
+comparable to TPC Benchmark Results.
