@@ -10,6 +10,6 @@ The queries run on PostgreSQL 16 over TPC-DS data at scale factor 10, with scale
 different database. A rewrite counts only if it returns the original's rows on both. The checker, the trusted
 original and the data are not in this repository: they live in the test environment, so a version can't change them.
 
-Cases: PERF-027.
+Cases: PERF-027, PERF-038, PG-AWARE-004.
 
 See NOTICE for where the queries come from and their licence.
